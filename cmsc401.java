@@ -138,6 +138,7 @@ public class cmsc401
 			City city = c.new City();
 			city.cityName = "City " + (i+1);
 			city.cityNum = (i+1);
+			// set the city total to infinity per Dijkstra's Algorithm
 			city.total = Integer.MAX_VALUE;
 			cities.add(city);
 		}
